@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "poetrydjango"
+version = "0.1.0"
+description = ""
+authors = ["user"]
+
+[tool.poetry.dependencies]
+python = "3.9.5"
+django-bridger = "^0.11.24"
+Django = "^3.2.6"
+pytest = "^6.2.4"
+pytest-django = "^4.4.0"
+Pillow = "^8.4.0"
+pip = "^21.3.1"
+install = "^1.3.4"
+flake8 = "^4.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
